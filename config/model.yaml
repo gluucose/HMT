@@ -1,0 +1,59 @@
+log_name: 'model_HECKTOR2022_hmt'
+
+# path
+results: '../results'
+data: '../../datasets_TCIA'
+
+dataset: 'HECKTOR2022'
+tabular: 'clinical_norm.csv'
+intervals: [0, 300, 600, 900, 1100, 1300, 1500, 2100, 2700, 3500, 6000]
+time_spots: [1, 4, 7]
+t_dim: 15
+
+# dataset: 'HN1'
+# tabular: 'clinical_norm_complete.csv'
+# intervals: [0, 336, 673, 1009, 1346, 1683, 2019, 2356, 2692, 3029, 3366]
+# time_spots: [1, 3, 5]
+# t_dim: 18
+
+interval_num: 10
+trained_model: ['', '', '', '', '']
+best_ci: [0., 0., 0., 0., 0.]
+
+# model
+modal_num: 2
+is_pt: True
+is_ct: True
+is_tabular: True
+is_cross: True
+is_acmix: True
+is_cnn: False
+is_att: False
+
+is_seg: True
+is_ag: True
+is_tatm: True
+is_ham: False
+
+channel_num: 16
+bottleneck_factor: 7
+
+# train
+is_plot_attn: False
+mode: 'train'   # of {'train', 'test'}
+device: '1'     # of {'0', '1'}
+seed: 0
+fold_num: 5
+
+epoch_num: 60
+epoch_start_save: 20
+batch_size: 2
+batch_size_eval: 1
+
+num_workers: 4
+pin_memory: True
+
+color:
+  train: '#f14461'
+  eval: '#3498db'
+  test: '#27ce82'
