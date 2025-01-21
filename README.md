@@ -1,3 +1,3 @@
 # HMT
 
-This is the first push. The code is still under organization. stay tuned!
+This is the first push. The code is under further organization. stay tuned!
