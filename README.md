@@ -4,8 +4,7 @@
 This is the official implementation of the paper "<b>HMT: A Hybrid Multi-Modal Transformer With Multi-Task Learning for Survival Prediction in Head and Neck Cancer </b>", TRPMS 2025.
 <a href="https://ieeexplore.ieee.org/abstract/document/10883045">[link]</a>
    
-Author: Jiaqi Cui, Yuanyuan Xu, Hanci Zheng, Xi Wu, Jiliu Zhou, Yuanjun Liu, Yan Wang
-
+**Author:** Jiaqi Cui, Yuanyuan Xu, Hanci Zheng, Xi Wu, Jiliu Zhou, Yuanjun Liu, Yan Wang
 
 <img src="imgs/framework.jpg" width="1500px" align="center" />
 
